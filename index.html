@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- mystyles CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <title>Arman's Vintage Cars</title>
+  </head>
+  <body>
+   <a name="top"></a>
+<!-- Navbar start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+       <img src="./images/AVC_Logo_png.png"alt="AVC logo" width="40" height="20">  Arman's Vintage Cars</img>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+         
+          <a class="nav-link active" aria-current="page" href="#carlisting">Cars</a>
+          <a class="nav-link" href="#enqtbl">Enquiries</a>
+          <a class="nav-link" href="#contact">Contact</a>
+         
+        </div>
+      </div>
+
+    </div>
+  </nav>
+<!-- Navbar end -->
+<!-- Car Listings start -->
+<section class="container mt-9 carlisting" id="carlisting">
+    <h2 style="text-align:center">Our Vintage Cars for Hire</h2>
+    <div class="row">
+    <br><h3>Car Listings</h3>
+        <!-- Car 1 start -->
+     <div class="col">
+        <div class="card" style="width: 15rem;">
+             <img src="./images/Holden_362202-small.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                      <p class="card-text">Vintage Holden Car</p>
+                      <p class="card-text">Car Type: Sedan</p>
+                      <p class="card-text">Doors: 2</p>
+            </div>
+        </div>
+     </div>
+        <!-- Car 1 end/Car 2 start -->
+     <div class="col">
+        <div class="card" style="width: 15rem;">
+             <img src="./images/Buick_147.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                      <p class="card-text">Vintage Buick Car</p>
+                      <p class="card-text">Car Type: Sedan</p>
+                      <p class="card-text">Doors: 4</p>
+                </div>
+        </div>
+     </div>
+             <!-- Car 2 end/Car 3 start -->
+     <div class="col">
+        <div class="card" style="width: 15rem;">
+             <img src="./images/RollsRoyce_816305bf6f2095cdd4d7ebef77dcf9a6.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                      <p class="card-text">Vintage Rolls Royce Car</p>
+                      <p class="card-text">Car Type: Sedan</p>
+                      <p class="card-text">Doors: 4</p>
+                    </div>
+                </div>
+     </div>
+             <!-- Car 3 end/Car 4 start -->
+     <div class="col">
+        <div class="card" style="width: 15rem;">
+             <img src="./images/Essex_IMG_1057-1-1024x683.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                      <p class="card-text">Vintage Essex Car</p>
+                      <p class="card-text">Car Type: Sedan</p>
+                      <p class="card-text">Doors: 2</p>
+                    </div>
+                </div>
+      </div>
+             <!-- Car 4 end -->
+    
+    </div>
+</section>
+<!-- Car Listings end -->
+
+<!-- Enquiry Form start -->
+
+<section class="container mt-5 enqtbl" id="enqtbl">
+<h3>Enquire about a car</h3>
+<form>
+    <div class="mb-3">
+      <label for="exampleInputName1" class="form-label">Full Name</label>
+      <input name="fullname" 
+             type="text" class="form-control" id="exampleInputName1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Please specify your valid email address.</div>
+      </div>
+
+    <div class="mb-3">
+      <label for="exampleInputCar1" class="form-label">Choose a car</label>
+      <select class="form-select" aria-label="Default select a car">
+        <option selected>Select a Car...</option>
+        <option value="1">Holden</option>
+        <option value="2">Buick</option>
+        <option value="3">Rolls Royce</option>
+        <option value="4">Essex</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputComment1" class="form-label">Comments</label>
+      <textarea class="form-control" id="comments" rows="4"></textarea>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </section>
+
+<!-- Enquiry Form end -->
+
+<!-- Contact start -->
+
+<section class="container mt-5 contact" id="contact">
+<h3>Contact</h3>
+<h6>Address: 1 Barangaroo Avenue Sydney, NSW 2000</h6>
+<h6>Phone No: +61 2 3456 7890</h6>
+<h6>Email: avc@vintagekotse.com.au</h6>
+<br> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.051635357026!2d151.1990327133989!3d-33.8625601261627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12af36306ced81%3A0xeae57b20eefd4248!2s1%20Barangaroo%20Ave%2C%20Barangaroo%20NSW%202000!5e0!3m2!1sen!2sau!4v1630471046207!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!-- Contact end  -->
+
+<!-- Back to Top start -->
+
+<br><br><a href="#top">Back to top of page</a>
+
+<!-- Back to Top end / Footer Below -->
+
+<br><br><footer class="footer text-center">Copyright @LL. All rights reserved 2021</footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
