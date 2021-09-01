@@ -1,17 +1,20 @@
 .carlisting {
-    background-color: ;
+    background-color: lightgrey;
 }
 .enqtbl {
     background-color: lightblue;
     font-family: 'Times New Roman', Times, serif;
 }
 .contact {
-    background-color: ;
+    background-color: lightyellow;
 }
 h3{ 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .card {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     border-color: gray;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
 }
